@@ -1,0 +1,61 @@
+.modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.616);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-body{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 70%;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0);
+}
+.btn{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.img{
+    height: 70%;
+}
+.flexForm{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.inputFlexbox{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.buttons{
+    width: 30%;
+}
+.loder{
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    z-index: 999;
+}
+

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+.authWrapper{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.527);
+}
+.authWindow{
+    display: flex;
+    width: 50%;
+    height: 50%;
+    background-color: white;
+    flex-direction: column;
+}
+.switch{
+    display: flex;
+    justify-content: space-around;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display:inline-block;
+    margin: 40px 8px 10px 8px; 
+    color: #cccccc;
+  }
+#login{
+    text-align: center;
+    width: 80%;
+    height: 40px;
+    margin-bottom: 10px;
+} 
+#password{
+    text-align: center;
+    width: 80%;
+    height: 40px;
+    margin-bottom: 30px;
+}
+.fadeInFourth{
+    width: 50%;
+    height: 40px;
+    color: white;
+    background-color: black;
+    margin-bottom: 10px;
+}
+.fadeInFourth:hover{
+    color: black;
+    background-color: white;
+}
+
+.cancel{
+    width: 50%;
+    height: 40px;
+    color:white;
+    background-color: black;
+}
+.cancel:hover{
+    color:white;
+    background-color: red;
+}

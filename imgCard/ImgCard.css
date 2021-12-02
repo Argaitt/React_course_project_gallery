@@ -1,0 +1,67 @@
+.tag{
+    text-decoration: none;
+    display: inline;
+    margin-right: 10px;
+}
+.image{
+    float: left;
+    width: 100%;
+}
+.bigImage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.685);
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+}
+.bigImage img{
+    height: 80%;
+
+}
+.title{
+    color: white;
+    font-size: 20pt;
+    margin: 5px;
+}
+.likes{
+    color: white;
+    font-size: 15pt;
+    margin: 5px;
+}
+.btnPlus{
+    border-radius: 50%;
+    height: 80%;
+    background-color: rgba(255, 0, 0, 0);
+    color:greenyellow;
+    outline: none;
+    border: none;
+    font-size: 15pt;
+}
+.btnPlus:hover{
+    background-color: rgba(255, 255, 255, 0.349);
+}
+.btnMinus{
+    border-radius: 50%;
+    height: 80%;
+    background-color: rgba(255, 0, 0, 0);
+    color:rgb(255, 83, 83);
+    outline: none;
+    border: none;
+    font-size: 15pt;
+}
+
+.btnMinus:hover{
+    background-color: rgba(255, 255, 255, 0.349);
+}
+.likesWrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
